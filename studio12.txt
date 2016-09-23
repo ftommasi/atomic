@@ -1,0 +1,9 @@
+1. Fausto Tommasi, Chris Lucas
+
+2. Atomically syncs and fetches the data at *ptr and adds the value to it
+
+3. 
+count = 0
+count = 1
+
+4.
