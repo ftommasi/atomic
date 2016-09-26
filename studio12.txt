@@ -7,3 +7,64 @@ count = 0
 count = 1
 
 4.
+race is 0
+
+5.
+real    0m0.820s
+user    0m1.613s
+sys     0m0.005s
+
+real    0m0.700s
+user    0m1.370s
+sys     0m0.001s
+
+real    0m0.701s
+user    0m1.371s
+sys     0m0.001s
+
+AVERAGE
+real    0m0.740s
+
+6.
+
+real    0m0.077s
+user    0m0.074s
+sys     0m0.000s
+
+real    0m0.075s
+user    0m0.074s
+sys     0m0.000s
+
+real    0m0.079s
+user    0m0.076s
+sys     0m0.002s
+
+AVERAGE
+real    0m0.077s
+
+
+7.Mutex locking is faster by approximately one order of magnitude. The Mutex speed up is approximately 9.6:1
+
+8.
+real    0m0.126s
+user    0m0.243s
+sys     0m0.002s
+
+real    0m0.130s
+user    0m0.227s
+sys     0m0.004s
+
+real    0m0.126s
+user    0m0.246s
+sys     0m0.002s
+
+AVERAGE
+real    0m0.127s
+
+The atomic functions are approximately 5.8 times slower
+
+9. 
+
+Mutex Locking: Higher level concurrent functions like a threaded sum
+
+Atomic Function: Lower level implementations like of a mutex or semaphore

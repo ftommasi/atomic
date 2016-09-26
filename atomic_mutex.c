@@ -27,10 +27,10 @@ void* adder(void* args){
 int main(int argc, char** argv){
   pthread_t id1,id2;
   int test;
-
+  
   test = pthread_create(&id1,NULL,adder,NULL);
   test = pthread_create(&id2,NULL,subtractor,NULL);
-
+ 
   test = pthread_join(id1,NULL);
   test = pthread_join(id2,NULL);
 
